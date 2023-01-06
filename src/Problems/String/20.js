@@ -1,0 +1,39 @@
+//20. Valid Parentheses
+
+/** function start here */
+
+var isValid = function (s) {
+  let stack = [];
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === "(") {
+      stack.push(")");
+    } else if (s[i] === "[") {
+      stack.push("]");
+    } else if (s[i] === "{") {
+      stack.push("}");
+    } else {
+      if (s[i] !== stack.pop()) {
+        return false;
+      }
+    }
+  }
+  return stack?.length === 0 ? true : false;
+};
+
+/** tests start here */
+
+test("test1", () => {
+  expect(isValid("[]")).toBe(true);
+});
+
+test("test2", () => {
+  expect(isValid("([])")).toBe(true);
+});
+
+test("test3", () => {
+  expect(isValid("([])}")).toBe(false);
+});
+
+test("test4", () => {
+  expect(isValid("(")).toBe(false);
+});
