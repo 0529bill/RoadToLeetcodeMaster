@@ -1,7 +1,6 @@
-//No. 13
-//Roman to Integer
+//13 Roman to Integer
 
-var functionXXX = function (s) {
+var convertRomanToInteger = function (s) {
   let romanMap = new Map([
     ["I", 1],
     ["V", 5],
@@ -24,17 +23,17 @@ var functionXXX = function (s) {
 /** tests start here */
 
 test("test1", () => {
-  expect(functionXXX("III")).toBe(3);
+  expect(convertRomanToInteger("III")).toBe(3);
 });
 
 test("test2", () => {
-  expect(functionXXX("CXL")).toBe(140);
+  expect(convertRomanToInteger("CXL")).toBe(140);
 });
 
 test("test3", () => {
-  expect(functionXXX("LVIII")).toBe(58);
+  expect(convertRomanToInteger("LVIII")).toBe(58);
 });
 
 test("test4", () => {
-  expect(functionXXX("MCMXCIV")).toBe(1994);
+  expect(convertRomanToInteger("MCMXCIV")).toBe(1994);
 });
