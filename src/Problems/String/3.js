@@ -1,8 +1,8 @@
-//13. Roman to Integer
+//3. Longest Substring Without Repeating Characters
 
 /** function start here */
 
-var functionXXX = function (s) {};
+var lengthOfLongestSubstring = function (s) {};
 
 /** tests start here */
 
@@ -19,5 +19,7 @@ test("test3", () => {
 });
 
 /**
+ *
+ * 1. use Set and forLoop
  *
  */

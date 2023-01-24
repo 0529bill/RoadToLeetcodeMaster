@@ -1,4 +1,4 @@
-//13. Roman to Integer
+//125. Valid Palindrome
 
 /** function start here */
 
@@ -8,7 +8,6 @@ var isPalindrome = function (s) {
     .toLowerCase()
     .split("")
     .filter((val) => regex.test(val));
-  console.log("result", result);
   return result.join("") === result.reverse().join("") ? true : false;
 };
 
@@ -45,7 +44,7 @@ test("test3", () => {
 //comments
 
 /**
- *  1. input includes numbers and string
+ *  1. input includes Both numbers and string!
  *
  *
  *
