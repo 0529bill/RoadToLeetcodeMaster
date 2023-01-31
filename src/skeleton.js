@@ -2,20 +2,20 @@
 
 /** function start here */
 
-var functionXXX = function (s) {};
+function xxx(s) {}
 
 /** tests start here */
 
 test("test1", () => {
-  expect().toBe();
+  expect(xxx(s)).toBe();
 });
 
 test("test2", () => {
-  expect().toBe();
+  expect(xxx(s)).toBe();
 });
 
 test("test3", () => {
-  expect().toBe();
+  expect(xxx(s)).toBe();
 });
 
 /**

@@ -4,7 +4,9 @@ sidebar_position: 1
 
 # [Leetcoding] CheatSheet
 
-## Array Big O
+## Big O
+
+### Array
 
 | Method type | Big O       |
 | ----------- | ----------- |
@@ -17,6 +19,8 @@ sidebar_position: 1
 | splice      | O(n)        |
 | sort        | O(n\*log n) |
 | map         | O(n)        |
+
+### Object
 
 | Method type    | Big O |
 | -------------- | ----- |
