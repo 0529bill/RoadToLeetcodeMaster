@@ -18,6 +18,20 @@ function maxSubArray(sum) {
   return maxSum;
 }
 
+// function maxSubArray(sum) {
+//   let tempSum = sum[0];
+//   let maxSum = sum[0];
+
+//   for (let i = 1; i < sum.length; i++) {
+//     while (tempSum < 0) {
+//       tempSum = 0;
+//     }
+//     tempSum += sum[i];
+//     maxSum = Math.max(tempSum, maxSum);
+//   }
+//   return maxSum;
+// }
+
 /** tests start here */
 
 test("test1", () => {
