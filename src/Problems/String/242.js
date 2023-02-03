@@ -42,3 +42,10 @@ test("test3", () => {
 test("test3", () => {
   expect(isAnagram("ab", "a")).toBe(false);
 });
+
+/**
+ * Tips and tricks:
+ *
+ * 1. sort the string and compare
+ * 2. use a map to count the number of each character
+ */

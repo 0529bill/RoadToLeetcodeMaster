@@ -8,7 +8,7 @@ var isPalindrome = function (s) {
     .toLowerCase()
     .split("")
     .filter((val) => regex.test(val));
-  return result.join("") === result.reverse().join("") ? true : false;
+  return result.join("") === result.reverse().join("");
 };
 
 /** tests start here */
