@@ -43,9 +43,9 @@ mySet.add(1);
 
 
 mySet.has(5)
-mySet.size()
 mySet.delete(5)
 mySet.clear()
+mySet.size
 
 
 //Array to Set
