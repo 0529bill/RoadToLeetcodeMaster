@@ -84,6 +84,6 @@ const objAgain = Object.fromEntries(map1);
 //convert map keys to an array
 const mapKeys = Array.from(map.keys());
 
-//convert map keys to an object
+//convert map values to an array
 const mapKeys = Array.from(map.values());
 ```
