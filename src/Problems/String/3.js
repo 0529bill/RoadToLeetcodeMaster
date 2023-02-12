@@ -2,21 +2,6 @@
 
 /** function start here */
 
-// const lengthOfLongestSubstring = function (s) {
-//   const set = new Set();
-//   let largestLength = 0;
-
-//   for (let i = 0; i < s.length; i++) {
-//     if (set.has(s[i])) {
-//       set.clear();
-//     }
-
-//     set.add(s[i]);
-//     largestLength = Math.max(largestLength, set.size);
-//   }
-//   return largestLength;
-// };
-
 var lengthOfLongestSubstring = function (s) {
   let left = 0;
   let maxCount = 0;
